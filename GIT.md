@@ -24,15 +24,15 @@
 
 ## Установка Git
 ### Windows
-- Загрузите установщик Git с официального сайта: <a href= "https://gitforwindows.org/">Git for Windows</a>.
+- Загрузите установщик Git с официального сайта: [Git for Windows](https://gitforwindows.org/).
 - Запустите установщик и следуйте инструкциям по установке.
 - После установки, откройте командную строку (Git Bash) и проверьте установку командой: **`git --version`**.
 ### macOS
 - Установите Git через Homebrew, если у вас уже установлен Homebrew:
-```
+```sh
 brew install git
 ```
-Или загрузите установщик с официального сайта: <a href= "https://git-scm.com/download/mac">Git for macOS</a>.
+Или загрузите установщик с официального сайта: [Git for macOS](https://git-scm.com/download/mac).
 
 - Откройте Terminal и проверьте установку командой: **`git --version`**.
 ### Linux
@@ -40,12 +40,12 @@ brew install git
 - Откройте терминал и проверьте установку командой: **`git --version`**.
 ## Настройка Git
 ### Установка имени ветки по умолчанию
-```
+```sh
 git config --global init.defaultBranch main
 ```
 ### Конфигурация пользователя
 Перед началом работы с Git, установите ваше имя и email, которые будут ассоциироваться с вашими коммитами (совпадают с именем и email на github.com):
-```
+```sh
 git config --global user.name "Ваше Имя"
 git config --global user.email "ваш@example.com"
 ```
